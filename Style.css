@@ -3,3 +3,49 @@
     color: rgba(255, 255, 128, .5)
 
 }
+
+#InitialIdeaShare {
+
+}
+
+* {
+    /*change font here*/
+}
+
+h2 {
+
+}
+
+button:hover {
+    color: gray;
+}
+
+h2, h3, p {
+
+}
+
+/*descendant selector*/
+div li {
+
+}
+
+/*child selector*/
+form > p {
+
+}
+
+/*General Sibling*/
+div ~ h2 {
+
+}
+
+/*Adjacent Sibling*/
+div + span {
+
+}
+
+
+
+
+
+

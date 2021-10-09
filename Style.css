@@ -1,19 +1,27 @@
 .Attendance { 
     background-color: hsla(50, 33%, 25%, .75);
-    color: rgba(255, 255, 128, .5)
+    color: rgba(255, 255, 128, .5);
+    border-style: dotted;
+    border-color: red;
+    border-radius: 7px;
+    border-width: 3px;
+
+    margin: 5cm 7cm 5cm 7cm;
+
+    padding: 6cm 9cm 6cm 9cm;
 
 }
 
 #InitialIdeaShare {
-
+    position: sticky;
 }
 
 * {
     /*change font here*/
 }
 
-h2 {
-
+span {
+    display: inline;
 }
 
 button:hover {
@@ -21,11 +29,28 @@ button:hover {
 }
 
 h2, h3, p {
+    text-decoration: solid underline black 3px;
+    text-align: center;
+
+    margin: auto;
+    display: inline-block;
+
+    position: fixed;
 
 }
 
 /*descendant selector*/
 div li {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+
 
 }
 
@@ -43,9 +68,36 @@ div ~ h2 {
 div + span {
 
 }
+@media screen and (min-width: 720px) {
+    h2, h3, p {
+        text-align: left;
+        text-decoration: solid underline black 1px;
+    }
+}
 
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content:center;
+    background-color:aquamarine;
+    color:chocolate;
+}
 
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
 
+.item {
+    text-align: center;
+    font-size: 70px;
+    padding: 10px;
+}
 
 
 

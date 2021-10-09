@@ -24,8 +24,7 @@
 }
 
 * {
-    /*change font here*/
-
+    font-size: 10px;
 }
 
 span {
@@ -43,7 +42,7 @@ h2, h3, p {
     margin: auto;
     display: inline-block;
 
-    position: fixed;
+    position: relative;
 
 }
 
@@ -64,17 +63,20 @@ div li {
 
 /*child selector*/
 form > p {
-
+    background-color: hsla(50, 33%, 25%, .75);
+    color: rgba(255, 255, 128, .5);
 }
 
 /*General Sibling*/
 div ~ h2 {
-
+    background-color: hsla(50, 33%, 25%, .75);
+    color: rgba(255, 255, 128, .5);
 }
 
 /*Adjacent Sibling*/
 div + span {
-
+    background-color: hsla(50, 33%, 25%, .75);
+    color: rgba(255, 255, 128, .5);
 }
 
 @media screen and (min-width: 720px) {
